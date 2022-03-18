@@ -1,0 +1,21 @@
+﻿<Window x:Class="StyleEventSetter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StyleEventSetter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="300">
+    <Window.Resources>
+        <Style x:Key="MouseHoverHighLight">
+            <Setter Property="TextBlock.Padding" Value="5"></Setter>
+            <EventSetter Event="FrameworkElement.MouseEnter" Handler="Element_MouseEnter"></EventSetter>
+            <EventSetter Event="FrameworkElement.MouseLeave" Handler="Element_MouseLeave"></EventSetter>
+        </Style>
+    </Window.Resources>
+    <StackPanel>
+        <TextBlock Style="{StaticResource MouseHoverHighLight}">Hover over me</TextBlock>
+        <TextBlock Padding="5">Don't bother with me</TextBlock>
+        <TextBlock Style="{StaticResource MouseHoverHighLight}">Hover over me</TextBlock>
+    </StackPanel>
+</Window>

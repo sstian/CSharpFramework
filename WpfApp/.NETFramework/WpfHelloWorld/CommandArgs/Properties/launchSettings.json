@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CommandArgs": {
+      "commandName": "Project",
+      "commandLineArgs": "TextFile.txt"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Snow-Angel\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Snow-Angel\\.nuget\\packages"
+    ]
+  }
+}
