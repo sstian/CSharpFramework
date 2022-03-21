@@ -13,6 +13,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandArgs", "CommandArgs\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleEventSetter", "StyleEventSetter\StyleEventSetter.csproj", "{C8434003-7989-4A9E-850E-49CB1606C0B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationBrush", "AnimationBrush\AnimationBrush.csproj", "{8E593B78-25D5-470B-8307-786928F6169B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationVisualBrush", "AnimationVisualBrush\AnimationVisualBrush.csproj", "{5C9997D3-49AD-4AA6-98F8-40AC99C2C5A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationBlurEffect", "AnimationBlurEffect\AnimationBlurEffect.csproj", "{AA0D42F0-7779-44F1-8C84-7C7C2D1DB94C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationPathGeometry", "AnimationPathGeometry\AnimationPathGeometry.csproj", "{095BAF15-DE60-46FF-8B3B-59A9983A6731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationCompositionTargetRendering", "AnimationCompositionTargetRendering\AnimationCompositionTargetRendering.csproj", "{EAED9B31-4579-4698-B58B-5A9640AE3EC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +49,26 @@ Global
 		{C8434003-7989-4A9E-850E-49CB1606C0B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8434003-7989-4A9E-850E-49CB1606C0B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8434003-7989-4A9E-850E-49CB1606C0B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E593B78-25D5-470B-8307-786928F6169B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E593B78-25D5-470B-8307-786928F6169B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E593B78-25D5-470B-8307-786928F6169B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E593B78-25D5-470B-8307-786928F6169B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9997D3-49AD-4AA6-98F8-40AC99C2C5A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9997D3-49AD-4AA6-98F8-40AC99C2C5A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9997D3-49AD-4AA6-98F8-40AC99C2C5A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9997D3-49AD-4AA6-98F8-40AC99C2C5A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA0D42F0-7779-44F1-8C84-7C7C2D1DB94C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA0D42F0-7779-44F1-8C84-7C7C2D1DB94C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA0D42F0-7779-44F1-8C84-7C7C2D1DB94C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA0D42F0-7779-44F1-8C84-7C7C2D1DB94C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095BAF15-DE60-46FF-8B3B-59A9983A6731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095BAF15-DE60-46FF-8B3B-59A9983A6731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095BAF15-DE60-46FF-8B3B-59A9983A6731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095BAF15-DE60-46FF-8B3B-59A9983A6731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAED9B31-4579-4698-B58B-5A9640AE3EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAED9B31-4579-4698-B58B-5A9640AE3EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAED9B31-4579-4698-B58B-5A9640AE3EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAED9B31-4579-4698-B58B-5A9640AE3EC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
