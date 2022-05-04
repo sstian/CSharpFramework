@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CustomDrawElement/1.0.0": {
+        "dependencies": {
+          "GradientOriginBrush": "1.0.0"
+        },
+        "runtime": {
+          "CustomDrawElement.dll": {}
+        }
+      },
+      "GradientOriginBrush/1.0.0": {
+        "runtime": {
+          "GradientOriginBrush.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CustomDrawElement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GradientOriginBrush/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

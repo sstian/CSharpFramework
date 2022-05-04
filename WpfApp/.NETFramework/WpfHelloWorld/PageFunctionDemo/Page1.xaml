@@ -1,0 +1,9 @@
+﻿<Page x:Class="PageFunctionDemo.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Page1">
+    <StackPanel>
+        <Button Click="selectProduct_Click">Select Product</Button>
+        <Label Name="labelStatus"></Label>
+    </StackPanel>
+</Page>

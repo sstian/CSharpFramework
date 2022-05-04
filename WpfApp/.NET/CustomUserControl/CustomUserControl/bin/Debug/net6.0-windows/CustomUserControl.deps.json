@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CustomUserControl/1.0.0": {
+        "dependencies": {
+          "ColorPickerUserControl": "1.0.0"
+        },
+        "runtime": {
+          "CustomUserControl.dll": {}
+        }
+      },
+      "ColorPickerUserControl/1.0.0": {
+        "runtime": {
+          "ColorPickerUserControl.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CustomUserControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ColorPickerUserControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

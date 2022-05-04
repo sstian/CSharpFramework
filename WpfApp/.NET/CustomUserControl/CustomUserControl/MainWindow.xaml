@@ -1,0 +1,15 @@
+﻿<Window x:Class="CustomUserControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CustomUserControl;assembly=ColorPickerUserControl" 
+        mc:Ignorable="d"
+        Title="CustomUserControlClient" Height="400" Width="400">
+    <StackPanel>
+        <local:ColorPickerUserControl Name="colorPicker" Margin="2" Padding="3" 
+                                    Color="Black" ColorChanged="colorPicker_ColorChanged">
+        </local:ColorPickerUserControl>
+        <TextBlock x:Name="textBlock" Margin="10"><Run Text="The current color is #FF000000"/></TextBlock>
+    </StackPanel>
+</Window>

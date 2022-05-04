@@ -1,0 +1,32 @@
+﻿<Window x:Class="AddInDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AddInDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="500" Loaded="Window_Loaded">
+    <Grid Margin="3">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ListBox Name="listAddIns" Margin="3" SelectionChanged="listAddIns_SelectionChanged">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="3,3,0,8" HorizontalAlignment="Stretch">
+                        <TextBlock Text="{Binding Path=Name}" FontWeight="Bold"></TextBlock>
+                        <TextBlock Text="{Binding Path=Publisher}"></TextBlock>
+                        <TextBlock Text="{Binding Path=Description}" FontSize="10" FontStyle="Italic"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button Grid.Column="1" Name="cmdProcessImage" Margin="0,3,3,3" Padding="3" VerticalAlignment="Top" IsEnabled="False" Click="cmdProcessImage_Click">Go</Button>
+        <Image Grid.Row="1" Grid.ColumnSpan="2" Name="image" Source="witch.jpg" Margin="3"></Image>
+    </Grid>
+</Window>
